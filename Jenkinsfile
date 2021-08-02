@@ -2,7 +2,7 @@ pipeline {
   agent any
   environment {
     COURSE = 'Calgary DevOps'
-    BRANCH = 'main'
+    BRANCH = 'master'
     WWWROOT = '/var/www/html'
     SSHUSER = 'jenkins'
   }
